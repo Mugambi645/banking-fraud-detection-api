@@ -8,7 +8,7 @@ services:
     volumes:
       - fraud_detection_local_db:/var/lib/postgresql/data
     env_file:
-      - ./envs/.env.local
+      - ./.envs/.env.local
     networks:
       - fraud_detection_local_nw
 
