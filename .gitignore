@@ -10,3 +10,6 @@ wheels/
 .venv
 .envs/*
 !.envs/.env.example
+
+# logs
+backend/app/logs
